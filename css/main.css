@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "cantarell", 'sans-serif';
+    font-weight: 800;
+    src: url(/fonts/cantarell/Cantarell-Regular.ttf);
+    src: url('/fonts/cantarell/regular-webfont.woff2') format('woff2'),
+         url('/fonts/cantarell/regular-webfont.woff') format('woff'),
+         url('/fonts/cantarell/regular-webfont.svg#cantarellregular') format('svg');
+}
+
+body {
+    font-family: 'cantarell';
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;    
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.football {
+    text-align: center;
+}
+
+.team {
+    border-radius: 18px;   
+    font-size: 16px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: white;
+    margin-right: 30px;       
+}
+
+.teamblock {
+    width: calc(33% - 30px);
+    margin-top: 30px;  
+}
+
+.logo {
+    width: auto;
+    height: 212px;
+    position: relative;  
+    text-align: center;
+}
+
+.logowidth {
+    width: auto;
+    height: 212px;
+    position: relative;  
+    text-align: center;
+}
+
+.nameteam {
+    font-family: Roboto Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.divider {
+    color: orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.achievements {
+    font-family: Roboto Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 70px;
+}
+
+.footer {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.buttonteam {
+    padding: 10px 0;
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    border: none;
+    border-radius: 16px; 
+    background: orange;         
+}
+
+.button-vision {
+    width: 80%;    
+}
+
+.button-text {
+    text-decoration: none; 
+}
+
+.buttonteam:hover {
+    background: black;
+    color: orange;
+    box-shadow: inset 0 0 0 3px orange ;
+        
+}
